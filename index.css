@@ -1,0 +1,12 @@
+/* check to see if the css file is connected 
+.red {
+    color: red;
+} */
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: dodgerblue;
+    padding: 0 5px 0 5px;
+    margin-left: 5px;
+}

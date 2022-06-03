@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List App</title>
+    <!-- <script src="app.js"></script> -->
+    <link rel="stylesheet" href="index.css">
+    <script async await src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Shopping List</h1>
+    </header>
+    <main>
+        <form id="form">
+            <label for="itemInput"></label>
+            <!-- User types in an item -->
+            <input class='input' type="text" name="itemInput" placeholder="Add an item...">
+            <div class="error"></div>
+            <!-- Click button to take value of input and add it to the list, clear fields-->
+            <button type="submit">Add Item</button>
+        </form>
+        <!-- Display the list of items added to the list -->
+        <ul id="list">
+            <li>Sample Item</li>
+        </ul>
+    </main>
+</body>
+</html>
